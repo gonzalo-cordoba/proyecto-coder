@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -10,35 +11,69 @@ a{
     color: inherit;
 }
 
+/* === COLOR DE FONDO ===*/
+
+body{
+    background-color: #284B63;
+}
+
 /* ==== HEADER GENERAL ==== */
 
 header{
-    background-color: #212529;
-    color: #dee2e6;
+    background-color: #3C6E71;
+    color: #FFFFFF;
     padding: 1rem;
 }
 
-/* === Icono de logo ===*/
-
-img{
-    display: block;
-    margin: auto;
+header h1{
+    text-align: center;
+    margin-bottom: 1rem;
 }
+
+
+/* Barra de busqueda */ 
 
 header form{
     display: none;
 }
 
+/* Listas de secciones */
+
 header li{
     text-align: center;
     list-style-type: none;
     margin-bottom: 0.5rem;
+    color: #D9D9D9;
+} 
+
+/* === MAIN === */
+
+img{
+    max-width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-header a{
-    color: white;
+main section h2{
+    color: black;
 }
 
+.text{
+    color: #FFFFFF;
+}
+
+/* === FOOTER === */
+
+.footer{
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 

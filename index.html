@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-prueba.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Inicio</title>
   </head>
 
@@ -12,18 +13,24 @@
 
     <header>
 
-      <div>
-        <h1>Gc Kits</h1>
-      </div>
-
       <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <a href="#" class="enlace">
+          <img src="./iconos/icono.jpg" alt="" class="logo">
+        </a>
+
         <ul>
-          <li><a href="./index.html">Inicio</a></li>
+          <li><a class="active" href="#">Inicio</a></li>
           <li><a href="./pages/camisetas.html">Camisetas</a></li>
           <li><a href="./pages/parches-estampados.html">Parches y Estampados</a></li>
           <li><a href="./pages/vende-tu-camiseta.html">Vende tu camiseta</a></li>
           <li><a href="./pages/carrito-de-compras.html">Carrito</a></li>
         </ul>
+
       </nav>
 
       <form action="">
@@ -36,25 +43,18 @@
 
     <main>
 
-      <section class="banner">
+      <section class="galeria">
+        <h2 class="galeria-title">Galeria</h2>
 
-        <img src="./img/banner.jpg" alt="Las mejores ofertas para vos!" />
+        <div class="contenedor-galeria">
 
-      </section>
+         <img src="./img/banner.jpg" alt="Las mejores ofertas para vos!" />
 
-      <section class="shop">
+         <img src="./img/shop1 .jpg" alt="Shop"/>
 
-        <h2 class="text">SHOP</h2>
-        <img src="./img/shop1 .jpg" alt="Shop"/>
+         <img src="./img/vendetucamiseta1.jpg" alt="Vende tu camiseta" />
 
-      </section>
-
-      <section class="venta">
-
-        <h2 class="text">VENDE TU CAMISETA</h2>
-        <img src="./img/vendetucamiseta1.jpg" alt="Vende tu camiseta" />
-
-      </section>
+      </div>
 
     </main>
 

@@ -70,7 +70,7 @@ li a.active, li a:hover{
     display: none;
 } 
 
-/* === Galeria ===*/
+/* === Galeria Index ===*/
 
 .galeria{
     padding: 1rem;
@@ -111,19 +111,29 @@ main section h2{
     margin-bottom: 1rem;
 } 
 
+
 /* === Vista Tablet === */
+
 @media(max-width: 1200px){
+
+    /* Icono */
     .enlace{
         padding-left: 20px;
     }
+
+    /* Secciones */
     nav ul li a{
-        font-size: 16px;
+        font-size: 13px;
     }
+
 }
 
 /* === Vista Mobile === */
 
 @media(max-width: 768px){
+
+    /* === Barra de navegacion === */
+
     .checkbtn{
         display: block;
     }
@@ -157,6 +167,33 @@ main section h2{
     #check:checked ~ ul{
         left: 0;
     } 
+
+    /* === Footer mobile ===*/
+
+    .footer{
+        height: 200px;
+    }
+
+    .contacto{
+        display: none;
+    }
+
+    .direccion{
+        display: none;
+    }
+
+    .mapa{
+        display: none;
+    }
+
+    .icono{
+        text-align: center;
+    }
+
+    .p{
+        text-align: center;
+    }
+    
 }
 
 

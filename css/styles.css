@@ -219,6 +219,7 @@ main section h2{
     
 }
 
+
 /* --- Vista mobile camisetas.html --- */
 
 @media(max-width: 768px){
@@ -259,8 +260,69 @@ main section h2{
     .titulo--item{  
        display: inline-block;
        text-align: center;
-       margin-top: 2rem;
-       margin-bottom: 0.5rem;
+       margin-top: 0rem;
+       margin-bottom: 0rem;
+    }
+
+    .precio-item{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .boton-item{
+        border-radius: 20px;
+        color: #008000;
+        float: right;
+        cursor: pointer;
+    }
+
+
+}
+
+/* --- Vista tablet camisetas.html --- */
+
+@media(max-width: 1200px){
+    img{
+        max-width: 100%;
+    }
+
+
+    h1{
+        background-color: #9EF01A;
+        margin-top: 2rem;
+        margin-bottom: rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .container--items{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .item{
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        border-radius: 10px;
+        margin-top: 2rem;
+
+        gap: 20px;
+    }
+
+    .item:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
+
+    .titulo--item{  
+       display: inline-block;
+       text-align: center;
+       margin-top: 0rem;
+       margin-bottom: 0rem;
+
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .precio-item{
@@ -278,6 +340,41 @@ main section h2{
     }
 
 
+}
+
+/* --- Vista Desktop camisetas.html --- */
+
+@media(min-width: 1200px){
+
+    main section h1{
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .container--items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1300px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+
+    .item{
+        border-radius: 10px;
+    }
+
+    .item:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
 }
 
 

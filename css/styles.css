@@ -219,5 +219,66 @@ main section h2{
     
 }
 
+/* --- Vista mobile camisetas.html --- */
+
+@media(max-width: 768px){
+    img{
+        max-width: 100%;
+    }
+
+
+    h1{
+        background-color: #9EF01A;
+        margin-top: 2rem;
+        margin-bottom: rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .container--items{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .item{
+        display: grid;
+        grid-template-columns: repeat (3, 1fr);
+        border-radius: 10px;
+        margin-top: 2rem;
+
+        gap: 20px;
+    }
+
+    .item:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
+
+    .titulo--item{  
+       display: inline-block;
+       text-align: center;
+       margin-top: 2rem;
+       margin-bottom: 0.5rem;
+    }
+
+    .precio-item{
+        display: inline-block;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .boton-item{
+        border-radius: 20px;
+        color: #008000;
+        float: right;
+        cursor: pointer;
+    }
+
+
+}
+
 
 

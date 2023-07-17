@@ -97,6 +97,155 @@ main section h2{
     color: #FFFFFF;
 }
 
+/* --- carrito desktop --- */
+
+.container-h1{
+    display: grid;
+    place-items: center;
+    justify-content: left;
+
+    margin: auto;
+}
+
+.h1-cart{
+
+    background-color: #21C063;
+    color: #fff;
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 2rem;
+
+    font-size: 25px;
+
+
+
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.imagen-carrito{
+    width: 100%;
+}
+
+.contenedor-carrito{
+    
+    max-width: 300px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+
+}
+
+.contenedor-carrito:hover{
+    box-shadow: 0 0 10px green;
+    scale: 1.05;
+}
+
+.carrito-item-titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+
+}
+
+.carrito-item-precio{
+    font-size: 15px;
+}
+
+.fila{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.btn-pagar{
+    display: grid;
+    align-items: center;
+
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-top: 0.7rem;
+
+    background-color: red;
+    color: #FFFFFF;
+   
+    height: 70px;
+    width: 50%;
+}
+
+.btn-pagar:hover{
+    box-shadow: 0 0 10px green;
+    scale: 1.05;
+}
+
+.imagen-carrito{
+    width: 100%;
+}
+
+.contenedor-carrito{
+    
+    max-width: 450px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+
+}
+
+.contenedor-carrito:hover{
+    box-shadow: 0 0 10px green;
+    scale: 1.05;
+}
+
+.carrito-item-titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+
+}
+
+.carrito-item-precio{
+    font-size: 15px;
+}
+
+.fila{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.btn-pagar{
+    display: grid;
+    align-items: center;
+    font-size: 20px;
+
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-top: 0.7rem;
+
+    background-color: red;
+    color: #FFFFFF;
+   
+    height: 80px;
+    width: 50%;
+}
+
+.btn-pagar:hover{
+    box-shadow: 0 0 10px green;
+    scale: 1.05;
+}
+
+
 
 /* === Footer Desktop ===*/
 
@@ -113,7 +262,7 @@ main section h2{
 .copyrigth{
     text-align: center;
     margin-top: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'calibri','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.938rem;
 }
 
@@ -134,10 +283,120 @@ main section h2{
     }
 
 
+
+    /* ----- Index ------*/
+
+    .h1-index{
+        clip: rect(0 0 0 0);
+        border: 0;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        display: block;
+        margin: 0 -1px -1px 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+
+
     .contenedor-galeria{
         margin-right: 85px;
         margin-left: 85px;
     }
+
+    /*----- Seccion Parches -----*/
+
+    .container--items{
+        display: grid;
+        place-items: center;
+    }
+
+    /* --- seccion carrito de compras tablet --- */
+
+    .header-carrito{
+        display: grid;
+        place-items: center;
+    }
+
+    .h1-cart{
+
+        background-color: #21C063;
+        color: #fff;
+        height: 100px;
+        width: 1000px;
+
+        font-size: 25px;
+
+
+
+        margin-left: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .imagen-carrito{
+        width: 100%;
+    }
+
+    .contenedor-carrito{
+        
+        max-width: 400px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid #666;
+        border-radius: 10px;
+        padding: 20px;
+        transition: .3s;
+
+    }
+
+    .contenedor-carrito:hover{
+        box-shadow: 0 0 10px green;
+        scale: 1.05;
+    }
+
+    .carrito-item-titulo{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 16px;
+
+    }
+
+    .carrito-item-precio{
+        font-size: 15px;
+    }
+
+    .fila{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    .btn-pagar{
+        display: grid;
+        align-items: center;
+        font-size: 16px;
+
+        margin: auto;
+        margin-bottom: 2rem;
+        padding-top: 0.7rem;
+
+        background-color: red;
+        color: #FFFFFF;
+       
+        height: 70px;
+        width: 50%;
+    }
+
+    .btn-pagar:hover{
+        box-shadow: 0 0 10px green;
+        scale: 1.05;
+    }
+
 
     /* --- footer tablet --- */
 
@@ -148,9 +407,11 @@ main section h2{
     .copyrigth{
         text-align: center;
         margin-top: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'calibri' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 0.938rem;
     }
+
+    
 
 }
 
@@ -192,7 +453,113 @@ main section h2{
 
     #check:checked ~ ul{
         left: 0;
-    } 
+    }
+    
+    /* ---- Seccion vende tu camiseta ---- */
+
+    .h1-venta-camiseta{
+
+        font-size: 23px;
+        color: #fff;
+
+    }
+
+    .parrafo-venta{
+        font-family: 'calibri';
+        font-size: 15px;
+    }
+
+
+    /* ----- Seccion carrito de compras mobile ----- */
+
+    .header-carrito{
+        display: grid;
+        place-items: center;
+    }
+
+    .h1-cart{
+
+        background-color: #21C063;
+        color: #fff;
+        height: 90px;
+        width: 100%;
+
+        font-size: 25px;
+
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .imagen-carrito{
+        width: 100%;
+    }
+
+    .contenedor-carrito{
+        
+        max-width: 300px;
+        padding: 10px;
+        margin: auto;
+        border: 1px solid #666;
+        border-radius: 10px;
+        padding: 20px;
+        transition: .3s;
+
+    }
+
+    .contenedor-carrito:hover{
+        box-shadow: 0 0 10px green;
+        scale: 1.05;
+    }
+
+    .carrito-item-titulo{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 16px;
+
+    }
+
+    .carrito-item-precio{
+        font-size: 15px;
+    }
+
+    .fila{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    .btn-pagar{
+        display: grid;
+        align-items: center;
+        font-size: 14px;
+
+        margin: auto;
+        margin-bottom: 2rem;
+        padding-top: 0.7rem;
+
+        background-color: red;
+        color: #FFFFFF;
+       
+        height: 70px;
+        width: 50%;
+    }
+
+    .btn-pagar:hover{
+        box-shadow: 0 0 10px green;
+        scale: 1.05;
+    }
+
+   
+
+    
+
+    
+
+
+
+
 
 
     /* === Footer mobile ===*/
@@ -208,7 +575,7 @@ main section h2{
     .copyrigth{
         text-align: center;
         margin-top: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Calibri' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 0.938rem;
     }
 
@@ -216,8 +583,23 @@ main section h2{
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    .h1-index{
+        clip: rect(0 0 0 0);
+        border: 0;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        display: block;
+        margin: 0 -1px -1px 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+    }
     
 }
+
+
 
 
 /* --- Vista mobile camisetas.html --- */
@@ -322,7 +704,7 @@ main section h2{
        margin-top: 0rem;
        margin-bottom: 0rem;
 
-       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-family: 'Calibri','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .precio-item{
@@ -338,6 +720,10 @@ main section h2{
         float: right;
         cursor: pointer;
     }
+
+    
+
+    
 
 
 }
@@ -375,9 +761,47 @@ main section h2{
     .item:hover{
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     }
+
+    /* ---- Index Desktop ---- */
+
+    .h1-index{
+        clip: rect(0 0 0 0);
+        border: 0;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        display: block;
+        margin: 0 -1px -1px 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        z-index: -1;
+    }
 }
 
-/*--- Seccion vende tu camiseta --- */
+/* ---- Seccion vende tu camiseta Desktop ---- */
+
+.h1-venta-camiseta{
+
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    background-color: #21C063;
+
+    font-size: 70px;
+    color: #fff;
+
+}
+
+.parrafo-venta{
+    display: grid;
+    align-items: center;
+    font-family: 'calibri';
+    font-size: 15px;
+}
+
+
 
 /* ----- Vista Mobile ----- */
 
@@ -432,7 +856,27 @@ main section h2{
         font-size: 16px;
     }
 
+    /* --- seccion vende tu camiseta mobile --- */
 
+    .h1-venta-camiseta{
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 1rem;
+
+        background-color: #21C063;
+
+        font-size: 40px;
+        color: #fff;
+
+    }
+
+    .parrafo-venta{
+        display: grid;
+        align-items: center;
+        font-family: 'calibri';
+        font-size: 15px;
+    } 
 
 
 
@@ -488,7 +932,13 @@ main section h2{
         font-size: 16px;
     }
 
+    
+
+    
+
+    
 }
+
 
 @media (min-width: 1200px){
 

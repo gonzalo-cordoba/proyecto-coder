@@ -72,6 +72,15 @@ li a.active, li a:hover{
 
 /* === Galeria Index ===*/
 
+.h1-index{
+    background-color: transparent;
+    font-size: 0.5px;
+
+    width: 0.5px;
+    height: 0px;
+
+}
+
 .galeria{
     padding: 1rem;
 }
@@ -99,22 +108,26 @@ main section h2{
 
 /* --- carrito desktop --- */
 
-.container-h1{
+/*.container-h1{
     display: grid;
     place-items: center;
     justify-content: left;
 
-    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+    
 }
 
 .h1-cart{
 
     background-color: #21C063;
     color: #fff;
-    height: 100px;
-    width: 1000px;
+    height: 6.25rem;
+    width: 87.5rem;
     text-align: center;
     padding-top: 2rem;
+   
 
     font-size: 25px;
 
@@ -124,7 +137,7 @@ main section h2{
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 
-}
+}*/
 
 .imagen-carrito{
     width: 100%;
@@ -132,12 +145,12 @@ main section h2{
 
 .contenedor-carrito{
     
-    max-width: 300px;
-    padding: 10px;
+    max-width: 18.75rem;
+    padding: 0.625rem;
     margin: auto;
     border: 1px solid #666;
     border-radius: 10px;
-    padding: 20px;
+    padding: 1.25rem;
     transition: .3s;
 
 }
@@ -191,8 +204,8 @@ main section h2{
 
 .contenedor-carrito{
     
-    max-width: 450px;
-    padding: 10px;
+    max-width: 28.125rem;
+    padding: 0.625rem;
     margin: auto;
     border: 1px solid #666;
     border-radius: 10px;
@@ -266,155 +279,6 @@ main section h2{
     font-size: 0.938rem;
 }
 
-
-
-/* === Vista Tablet === */
-
-@media(max-width: 1200px){
-
-    /* Icono */
-    .enlace{
-        padding-left: 20px;
-    }
-
-    /* Secciones */
-    nav ul li a{
-        font-size: 13px;
-    }
-
-
-
-    /* ----- Index ------*/
-
-    .h1-index{
-        clip: rect(0 0 0 0);
-        border: 0;
-        -webkit-clip-path: inset(50%);
-        clip-path: inset(50%);
-        display: block;
-        margin: 0 -1px -1px 0;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        z-index: -1;
-    }
-
-
-
-    .contenedor-galeria{
-        margin-right: 85px;
-        margin-left: 85px;
-    }
-
-    /*----- Seccion Parches -----*/
-
-    .container--items{
-        display: grid;
-        place-items: center;
-    }
-
-    /* --- seccion carrito de compras tablet --- */
-
-    .header-carrito{
-        display: grid;
-        place-items: center;
-    }
-
-    .h1-cart{
-
-        background-color: #21C063;
-        color: #fff;
-        height: 100px;
-        width: 1000px;
-
-        font-size: 25px;
-
-
-
-        margin-left: 2.5rem;
-        margin-bottom: 1.5rem;
-        margin-top: 1.5rem;
-
-    }
-
-    .imagen-carrito{
-        width: 100%;
-    }
-
-    .contenedor-carrito{
-        
-        max-width: 400px;
-        padding: 10px;
-        margin: auto;
-        border: 1px solid #666;
-        border-radius: 10px;
-        padding: 20px;
-        transition: .3s;
-
-    }
-
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px green;
-        scale: 1.05;
-    }
-
-    .carrito-item-titulo{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 16px;
-
-    }
-
-    .carrito-item-precio{
-        font-size: 15px;
-    }
-
-    .fila{
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-
-
-    .btn-pagar{
-        display: grid;
-        align-items: center;
-        font-size: 16px;
-
-        margin: auto;
-        margin-bottom: 2rem;
-        padding-top: 0.7rem;
-
-        background-color: red;
-        color: #FFFFFF;
-       
-        height: 70px;
-        width: 50%;
-    }
-
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px green;
-        scale: 1.05;
-    }
-
-
-    /* --- footer tablet --- */
-
-    .icono{
-        text-align: center;
-    }
-
-    .copyrigth{
-        text-align: center;
-        margin-top: 30px;
-        font-family: 'calibri' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 0.938rem;
-    }
-
-    
-
-}
-
 /* === Vista Mobile === */
 
 @media(max-width: 768px){
@@ -468,99 +332,6 @@ main section h2{
         font-family: 'calibri';
         font-size: 15px;
     }
-
-
-    /* ----- Seccion carrito de compras mobile ----- */
-
-    .header-carrito{
-        display: grid;
-        place-items: center;
-    }
-
-    .h1-cart{
-
-        background-color: #21C063;
-        color: #fff;
-        height: 90px;
-        width: 100%;
-
-        font-size: 25px;
-
-        margin-bottom: 1.5rem;
-        margin-top: 1.5rem;
-
-    }
-
-    .imagen-carrito{
-        width: 100%;
-    }
-
-    .contenedor-carrito{
-        
-        max-width: 300px;
-        padding: 10px;
-        margin: auto;
-        border: 1px solid #666;
-        border-radius: 10px;
-        padding: 20px;
-        transition: .3s;
-
-    }
-
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px green;
-        scale: 1.05;
-    }
-
-    .carrito-item-titulo{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 16px;
-
-    }
-
-    .carrito-item-precio{
-        font-size: 15px;
-    }
-
-    .fila{
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-
-
-    .btn-pagar{
-        display: grid;
-        align-items: center;
-        font-size: 14px;
-
-        margin: auto;
-        margin-bottom: 2rem;
-        padding-top: 0.7rem;
-
-        background-color: red;
-        color: #FFFFFF;
-       
-        height: 70px;
-        width: 50%;
-    }
-
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px green;
-        scale: 1.05;
-    }
-
-   
-
-    
-
-    
-
-
-
-
-
 
     /* === Footer mobile ===*/
 
@@ -639,22 +410,41 @@ main section h2{
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     }
 
-    .titulo--item{  
-       display: inline-block;
-       text-align: center;
-       margin-top: 0rem;
-       margin-bottom: 0rem;
+    .item img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        transition: all .5s;
+    }
+
+    .item:hover img{
+        transform: scale(1.2);
+    }
+
+    .item .info-product{
+        overflow: hidden;
+    }
+
+
+    .info-product{
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .precio-item{
-        display: inline-block;
-        text-align: center;
+        font-size: 12px;
+        font-weight: 900;
     }
 
-    .boton-item{
-        border-radius: 20px;
-        color: #008000;
-        float: right;
+    .info-product button{
+        border: none;
+        background: none;
+        background-color: black;
+        color: white;
+        padding: 15px 10px;
         cursor: pointer;
     }
 
@@ -698,26 +488,41 @@ main section h2{
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     }
 
-    .titulo--item{  
-       display: inline-block;
-       text-align: center;
-       margin-top: 0rem;
-       margin-bottom: 0rem;
+    .item img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        transition: all .5s;
+    }
 
-       font-family: 'Calibri','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .item:hover img{
+        transform: scale(1.2);
+    }
+
+    .item .info-product{
+        overflow: hidden;
+    }
+
+
+    .info-product{
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .precio-item{
-        display: inline-block;
-        text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+        font-size: 20px;
+        font-weight: 900;
     }
 
-    .boton-item{
-        border-radius: 20px;
-        color: #008000;
-        float: right;
+    .info-product button{
+        border: none;
+        background: none;
+        background-color: black;
+        color: white;
+        padding: 15px 10px;
         cursor: pointer;
     }
 
@@ -740,6 +545,7 @@ main section h2{
 
     img{
         max-width: 100%;
+        border-radius: 10px 10px 0 0;
     }
 
     .container--items{
@@ -756,10 +562,41 @@ main section h2{
 
     .item{
         border-radius: 10px;
+        
+    }
+
+    .item img{
+        transition: all .5s;
     }
 
     .item:hover{
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
+
+    .item:hover img{
+        transform: scale(1.2);
+    }
+
+    .info-product{
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .precio-item{
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .info-product button{
+        border: none;
+        background: none;
+        background-color: black;
+        color: white;
+        padding: 15px 10px;
+        cursor: pointer;
     }
 
     /* ---- Index Desktop ---- */

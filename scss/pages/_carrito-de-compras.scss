@@ -20,13 +20,14 @@
         border-radius: 10px;
         padding: 1.25rem;
         transition: .3s;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     
     }
     
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
@@ -59,12 +60,13 @@
        
         height: 70px;
         width: 50%;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     }
     
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     
     .imagen-carrito{
         width: 100%;
@@ -79,18 +81,20 @@
         border-radius: 10px;
         padding: 20px;
         transition: .3s;
+
+        &:hover{
+
+         box-shadow: 0 0 10px $c-verde-comun;
+         scale: 1.05;
+
+        }
     
     }
     
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
         font-size: 16px;
-    
     }
     
     .carrito-item-precio{
@@ -119,12 +123,14 @@
        
         height: 80px;
         width: 50%;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     }
     
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
+    
 }
 
 @media(min-width: 375px){
@@ -142,13 +148,14 @@
         border-radius: 10px;
         padding: 1.25rem;
         transition: .3s;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     
     }
-    
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
+
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
@@ -181,12 +188,13 @@
        
         height: 70px;
         width: 50%;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     }
     
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     
     .imagen-carrito{
         width: 100%;
@@ -201,13 +209,14 @@
         border-radius: 10px;
         padding: 20px;
         transition: .3s;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     
     }
     
-    .contenedor-carrito:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
@@ -241,12 +250,13 @@
        
         height: 80px;
         width: 50%;
+
+        &:hover{
+            box-shadow: 0 0 10px $c-verde-comun;
+            scale: 1.05;
+        }
     }
     
-    .btn-pagar:hover{
-        box-shadow: 0 0 10px $c-verde-comun;
-        scale: 1.05;
-    }
     }
     
     @media(min-width: 768px){
@@ -264,13 +274,14 @@
             border-radius: 10px;
             padding: 1.25rem;
             transition: .3s;
+
+            &:hover{
+                box-shadow: 0 0 10px $c-verde-comun;
+                scale: 1.05;
+            }
         
         }
         
-        .contenedor-carrito:hover{
-            box-shadow: 0 0 10px $c-verde-comun;
-            scale: 1.05;
-        }
         
         .carrito-item-titulo{
             font-family: $ff-calibri;
@@ -303,12 +314,13 @@
            
             height: 70px;
             width: 50%;
+
+            &:hover{
+                box-shadow: 0 0 10px $c-verde-comun;
+                scale: 1.05;
+            }
         }
         
-        .btn-pagar:hover{
-            box-shadow: 0 0 10px $c-verde-comun;
-            scale: 1.05;
-        }
         
         .imagen-carrito{
             width: 100%;
@@ -323,13 +335,15 @@
             border-radius: 10px;
             padding: 20px;
             transition: .3s;
+
+            &:hover{
+                box-shadow: 0 0 10px $c-verde-comun;
+                scale: 1.05;
+            }
         
         }
         
-        .contenedor-carrito:hover{
-            box-shadow: 0 0 10px $c-verde-comun;
-            scale: 1.05;
-        }
+    
         
         .carrito-item-titulo{
             font-family: $ff-calibri;
@@ -363,11 +377,12 @@
            
             height: 80px;
             width: 50%;
+
+            &:hover{
+                box-shadow: 0 0 10px $c-verde-comun;
+                scale: 1.05;
+            }
         }
-        
-        .btn-pagar:hover{
-            box-shadow: 0 0 10px $c-verde-comun;
-            scale: 1.05;
-        }
+
     
     }

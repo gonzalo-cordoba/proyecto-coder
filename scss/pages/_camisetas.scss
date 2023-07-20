@@ -107,11 +107,14 @@
         margin-top: 2rem;
 
         gap: 20px;
+
+        &:hover{
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+        }
+        
     }
 
-    .item:hover{
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    }
+
 
     .item img{
         width: 100%;

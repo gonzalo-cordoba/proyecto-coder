@@ -710,10 +710,6 @@ li a.active, li a:hover {
     flex-direction: column;
     gap: 10px;
   }
-  .precio-item {
-    font-size: 12px;
-    font-weight: 900;
-  }
   .info-product button {
     border: none;
     background: none;
@@ -721,6 +717,10 @@ li a.active, li a:hover {
     color: white;
     padding: 15px 10px;
     cursor: pointer;
+  }
+  .precio-item {
+    font-size: 12px;
+    font-weight: 900;
   }
 }
 /* --- Vista tablet parches y estampados --- */
@@ -771,10 +771,6 @@ li a.active, li a:hover {
     flex-direction: column;
     gap: 10px;
   }
-  .precio-item {
-    font-size: 20px;
-    font-weight: 900;
-  }
   .info-product button {
     border: none;
     background: none;
@@ -782,6 +778,10 @@ li a.active, li a:hover {
     color: white;
     padding: 15px 10px;
     cursor: pointer;
+  }
+  .precio-item {
+    font-size: 20px;
+    font-weight: 900;
   }
 }
 /* --- Vista Desktop parches y estampados --- */
@@ -808,11 +808,11 @@ li a.active, li a:hover {
   .item {
     border-radius: 10px;
   }
-  .item img {
-    transition: all 0.5s;
-  }
   .item:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .item img {
+    transition: all 0.5s;
   }
   .item:hover img {
     transform: scale(1.2);
@@ -824,10 +824,6 @@ li a.active, li a:hover {
     flex-direction: column;
     gap: 10px;
   }
-  .precio-item {
-    font-size: 18px;
-    font-weight: 900;
-  }
   .info-product button {
     border: none;
     background: none;
@@ -835,6 +831,10 @@ li a.active, li a:hover {
     color: white;
     padding: 15px 10px;
     cursor: pointer;
+  }
+  .precio-item {
+    font-size: 18px;
+    font-weight: 900;
   }
 }
 /* ---- Seccion vende tu camiseta Desktop ---- */

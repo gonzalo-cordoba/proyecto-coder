@@ -1,0 +1,57 @@
+/* === Footer Desktop ===*/
+
+.footer{
+    background-color: $c-verde-principal;
+    color: $c-blanco;
+    padding: 1rem;
+}
+
+.icono{
+    text-align: center;
+}
+
+.copyrigth{
+    text-align: center;
+    margin-top: 30px;
+    font-family: $ff-calibri;
+    font-size: 0.938rem;
+}
+
+
+@media(max-width: 768px){
+    
+/* === Footer mobile ===*/
+
+.footer{
+    height: 200px;
+}
+.icono{
+    text-align: center;
+}
+
+.copyrigth{
+    text-align: center;
+    margin-top: 30px;
+    font-family: $ff-calibri;
+    font-size: 0.938rem;
+}
+
+.contenedor-galeria{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.h1-index{
+    clip: rect(0 0 0 0);
+    border: 0;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    display: block;
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+}

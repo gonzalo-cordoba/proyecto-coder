@@ -1,0 +1,171 @@
+/* ---- Seccion vende tu camiseta Desktop ---- */
+
+.h1-venta-camiseta{
+
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    background-color: $c-verde-li-a;
+
+    font-size: 70px;
+    color: $c-blanco;
+
+}
+
+.parrafo-venta{
+    display: grid;
+    align-items: center;
+    font-family: $ff-calibri;
+    font-size: 15px;
+}
+
+
+@media(min-width: 768px){
+    .h1-venta-camiseta{
+
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin-top: 1rem;
+    
+        background-color: $c-verde-li-a;
+    
+        font-size: 40px;
+        font-size: 23px;
+        color: $c-blanco;
+    
+    }
+    
+    .parrafo-venta{
+        display: grid;
+        align-items: center;
+        font-family: 'calibri';
+        font-size: 15px;
+        background-color: $c-verde-principal;
+        color: $c-blanco;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    
+    
+    }
+    .form-venta{
+        width: 400px;
+        background: $c-verde-li-a;
+        padding: 30px;
+        padding-left: 0.5rem;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        font-family: $ff-calibri;
+        color: $c-blanco;
+    }
+    
+    .controls{
+        width: 100%;
+        background: $c-blanco-smoke;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid $c-azul-controls;
+        font-family: $ff-calibri;
+        font-size: 18px
+    }
+    
+    textarea{
+        resize: none;
+        width: 300px;
+        height: 100px;
+    
+        margin-bottom: 2rem;
+    }
+    
+    .form-venta .botons{
+        width: 100%;
+        background: wheat;
+        border: none;
+        padding: 12px;
+        color: $c-blanco;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    
+
+}
+
+
+
+@media(max-width: 768px){
+/* ---- Seccion vende tu camiseta mobile ---- */
+
+.h1-venta-camiseta{
+
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    background-color: $c-verde-li-a;
+
+    font-size: 40px;
+    font-size: 23px;
+    color: $c-blanco;
+
+}
+
+.parrafo-venta{
+    display: grid;
+    align-items: center;
+    font-family: 'calibri';
+    font-size: 15px;
+    background-color: $c-verde-principal;
+    color: $c-blanco;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+.form-venta{
+    width: 400px;
+    background: $c-verde-li-a;
+    padding: 30px;
+    padding-left: 0.5rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    font-family: $ff-calibri;
+    color: $c-blanco;
+}
+
+.controls{
+    width: 100%;
+    background: $c-blanco-smoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $c-azul-controls;
+    font-family: $ff-calibri;
+    font-size: 18px
+}
+
+textarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+
+    margin-bottom: 2rem;
+}
+
+.form-venta .botons{
+    width: 100%;
+    background: wheat;
+    border: none;
+    padding: 12px;
+    color: $c-blanco;
+    margin: 16px 0;
+    font-size: 16px;
+}
+}

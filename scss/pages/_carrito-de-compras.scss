@@ -4,6 +4,7 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         background-color: $c-verde-h1;
+        color: white;
     }
 
 
@@ -31,12 +32,12 @@
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
-        font-size: 16px;
+        font-size: 1rem;
     
     }
     
     .carrito-item-precio{
-        font-size: 15px;
+        font-size: 0.938rem;
     }
     
     .fila{
@@ -94,11 +95,11 @@
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
-        font-size: 16px;
+        font-size: 1rem;
     }
     
     .carrito-item-precio{
-        font-size: 15px;
+        font-size: 0.938rem;
     }
     
     .fila{
@@ -112,7 +113,7 @@
     .btn-pagar{
         display: grid;
         align-items: center;
-        font-size: 20px;
+        font-size: 1.25rem;
     
         margin: auto;
         margin-bottom: 2rem;
@@ -159,12 +160,12 @@
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
-        font-size: 16px;
+        font-size: 1rem;
     
     }
     
     .carrito-item-precio{
-        font-size: 15px;
+        font-size: 0.938rem;
     }
     
     .fila{
@@ -220,12 +221,12 @@
     
     .carrito-item-titulo{
         font-family: $ff-calibri;
-        font-size: 16px;
+        font-size: 1rem;
     
     }
     
     .carrito-item-precio{
-        font-size: 15px;
+        font-size: 0.938rem;
     }
     
     .fila{
@@ -239,7 +240,7 @@
     .btn-pagar{
         display: grid;
         align-items: center;
-        font-size: 20px;
+        font-size: 1.25rem;
     
         margin: auto;
         margin-bottom: 2rem;
@@ -285,12 +286,12 @@
         
         .carrito-item-titulo{
             font-family: $ff-calibri;
-            font-size: 16px;
+            font-size: 1rem;
         
         }
         
         .carrito-item-precio{
-            font-size: 15px;
+            font-size: 0.938rem;
         }
         
         .fila{
@@ -347,12 +348,12 @@
         
         .carrito-item-titulo{
             font-family: $ff-calibri;
-            font-size: 16px;
+            font-size: 1rem;
         
         }
         
         .carrito-item-precio{
-            font-size: 15px;
+            font-size: 0.938rem;
         }
         
         .fila{
@@ -366,7 +367,7 @@
         .btn-pagar{
             display: grid;
             align-items: center;
-            font-size: 20px;
+            font-size: 1.25rem;
         
             margin: auto;
             margin-bottom: 2rem;

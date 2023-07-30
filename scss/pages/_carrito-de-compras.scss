@@ -3,8 +3,14 @@
     .h1-cart{
         margin-top: 1rem;
         margin-bottom: 1rem;
+        font-family: $ff-raleway;
         background-color: $c-verde-h1;
         color: white;
+    }
+
+    .h2-cart{
+        background-color: aquamarine;
+        font-size: 1.5rem;
     }
 
 
@@ -31,12 +37,13 @@
     
     
     .carrito-item-titulo{
-        font-family: $ff-calibri;
+        font-family: $ff-rem; 
         font-size: 1rem;
     
     }
     
     .carrito-item-precio{
+        font-family: $ff-rem;
         font-size: 0.938rem;
     }
     
@@ -159,12 +166,13 @@
 
     
     .carrito-item-titulo{
-        font-family: $ff-calibri;
+        font-family: $ff-rem;
         font-size: 1rem;
     
     }
     
     .carrito-item-precio{
+        font-family: $ff-raleway;
         font-size: 0.938rem;
     }
     
@@ -179,6 +187,7 @@
     .btn-pagar{
         display: grid;
         align-items: center;
+        font-family: $ff-raleway;
     
         margin: auto;
         margin-bottom: 2rem;
@@ -347,12 +356,13 @@
     
         
         .carrito-item-titulo{
-            font-family: $ff-calibri;
+            font-family: $ff-rem;
             font-size: 1rem;
         
         }
         
         .carrito-item-precio{
+            font-family: $ff-rem;
             font-size: 0.938rem;
         }
         
@@ -367,6 +377,7 @@
         .btn-pagar{
             display: grid;
             align-items: center;
+            font-family: $ff-rem;
             font-size: 1.25rem;
         
             margin: auto;

@@ -7,13 +7,23 @@ $c-verde-principal: #008000;
 $c-verde-li-a: #21C063;
 $c-verde-h1: #9EF01A;
 $c-rojo-boton-compra: red;
+$c-verde-h2: #9ef01a;
 $c-azul-controls: #1f56c5;
 $c-gris-color: gray;
 $c-color-border: #666666;
+$ff-raleway:'Raleway', sans-serif;
+$ff-rem: 'REM', sans-serif;
 $ff-calibri: "calibri", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $c-facebook: #3b5999;
 $c-instagram: #e4405f;
 $c-twitter: #55acee;
+
+@font-face {
+    font-family: 'Fuente personalizada';
+    src: url('../fonts/mifuente.woff2') format('woff2'), 
+         url('../fonts/mifuente.woff') format('woff');
+    
+  }
 
 
 

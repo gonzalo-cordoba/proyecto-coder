@@ -19,20 +19,20 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
-}
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
+    & li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
 
-nav ul li a{
-    color: white;
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+     & a{
+        color: white;
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    } 
+    }
 }
 
 li a.active, li a:hover{
@@ -73,17 +73,18 @@ li a.active, li a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
+
+        nav & li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+
+            & a{
+                font-size: 1.25rem;
+            }
+        }
     }
 
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    nav ul li a{
-        font-size: 20px;
-    }
 
     li a:hover, li a.active{
         background: none;
@@ -97,13 +98,13 @@ li a.active, li a:hover{
 
 @media(min-width: 768px){
     nav ul li a{
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
 
 @media(min-width: 1200px){
     nav ul li a{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
 

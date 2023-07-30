@@ -303,10 +303,11 @@ li a.active, li a:hover {
     gap: 10px;
   }
   .precio-item {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 900;
   }
   .boton-item {
+    width: 100%;
     font-family: "Raleway", sans-serif;
   }
   .info-product button {
@@ -375,10 +376,11 @@ li a.active, li a:hover {
     gap: 10px;
   }
   .precio-item {
-    font-size: 21.25rem;
+    font-size: 1rem;
     font-weight: 900;
   }
   .boton-item {
+    width: 100%;
     font-family: "Raleway", sans-serif;
   }
   .info-product button {
@@ -439,6 +441,7 @@ li a.active, li a:hover {
     font-weight: 900;
   }
   .boton-item {
+    width: 100%;
     font-family: "Raleway", sans-serif;
   }
   .info-product button {
